@@ -1,0 +1,44 @@
+[
+    {
+        "transactionName": "robotExists",
+        "transactionLabel": "A test robotExists transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "createRobot",
+        "transactionLabel": "A test createRobot transaction",
+        "arguments": [
+            "001",
+            "some value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "readRobot",
+        "transactionLabel": "A test readRobot transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "updateRobot",
+        "transactionLabel": "A test updateRobot transaction",
+        "arguments": [
+            "001",
+            "some other value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "deleteRobot",
+        "transactionLabel": "A test deleteRobot transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    }
+]
