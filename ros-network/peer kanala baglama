@@ -1,6 +1,0 @@
-./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-java -ccl java
-
-CORE_PEER_ADDRESS=localhost:8051 peer channel join -b channel-artifacts/mychannel.block
-CORE_PEER_ADDRESS=localhost:9051 peer channel join -b channel-artifacts/mychannel.block
-CORE_PEER_ADDRESS=localhost:9061 peer channel join -b channel-artifacts/mychannel.block
-CORE_PEER_ADDRESS=localhost:9071 peer channel join -b channel-artifacts/mychannel.block
